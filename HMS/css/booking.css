@@ -1,0 +1,82 @@
+*{
+    margin: 0
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    font-family: Tahoma, sans-serif;
+    background-image: url(booking.jpg); 
+
+    /* background-color: #6699cc; */
+  }
+  h2{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff; }
+
+  .container h1 {
+    color: white;
+    font-family: serif;
+    margin: 20px;
+  }
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: serif;
+    background-color: #010101;
+    opacity: 0.8;
+    padding: 20px;
+  }
+
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: serif;
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 26px;
+    color: rgb(10, 10, 10);
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #060606;
+    text-align: center;
+  }
+    
+  #check{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   color: #ffffff;}
+   .container p{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;   
+    font-weight: bold;
+    color: #ffffff;
+   }
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+    
+  }

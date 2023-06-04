@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background-image: url(signup.jpg);
+ background-size: cover;
+ font-family: Tahoma, sans-serif;
+}
+.signup{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 600px;
+ height: 660px;
+ text-align: center;
+ box-sizing: border-box;
+ background: rgba(0,0,0,0.5);
+ color: white;
+ padding: 20px;
+}
+h3{
+ margin: 0;
+ padding: 0 0 20px;
+ font-weight: bold;
+ font-size: 25px;
+ color: #ffffff;
+}
+h2{
+ margin: 0;
+ padding: 0 0 20px;
+ font-weight: bold;
+ font-size: 20px;
+ color: #ffffff;
+}
+#name{
+ width: 50%;
+ padding: 5px;
+ border-radius: 5px;
+ border: 1px solid white;
+ outline: 0;
+ font-family: serif;
+ font-size: 18px;
+ background: none;
+ color: white;
+}
+
+#number{
+ width: 35%;
+ padding: 5px;
+ border-radius: 5px;
+ border: 1px solid white;
+ outline: 0;
+ font-family: serif;
+ font-size: 18px;
+ background: none;
+ color: white;
+}
+
+#num{
+ width: 15%;
+ padding: 5px;
+ border-radius: 5px;
+ outline: 0;
+ background: none;
+ color: white;
+ }
+
+#check{
+ font-family: serif;
+ font-size: 18px;
+}
+
+#sub{
+ width: 150px;
+ padding: 5px;
+ font-family: serif;
+ font-size: 18px;
+ border: 1px solid white;
+ outline: 0;
+ border-radius: 5px;
+ background: none;
+ color: white;
+ background-color: tomato;
+ cursor: pointer;
+}
+#sub:hover{
+ background: cyan;
+}
+
+.signup p{
+ margin: 0;
+ padding: 0;
+ font-weight: bold;
+ color: #ffffff;
+}
+ 

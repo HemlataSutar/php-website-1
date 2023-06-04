@@ -1,0 +1,306 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--text-color: white;
+	--nav-color: var(--text-color);
+
+}
+
+body {
+	font-family: sans-serif;
+
+}
+
+#navbar {
+	background-color: black;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#navbar>a {
+	color: aliceblue;
+	text-decoration: none;
+	padding: 1em;
+}
+
+#back {
+	background-image: url("index.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#banner {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+#nav {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+#nav>a {
+	padding: 1em;
+	padding-top: 0.5em;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: var(--nav-color);
+	text-decoration: none;
+}
+
+#nav>a:hover {
+	color: blue;
+}
+
+.header {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	padding-left: 3em;
+	padding-right: 3em;
+	color: var(--text-color);
+}
+
+.big {
+	font-size: 3em;
+}
+
+#msg>h4 {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+#portfolio {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+#portfolio>img {
+	padding: 1em;
+}
+
+#aboutus>h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+#aboutus>h4 {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: center;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#logo {
+	transform: scale(80%, 80%);
+	padding: 1em;
+}
+
+#rooms>h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+
+.left-cont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.left-cont>img {
+	padding: 1em;
+	width: 50vw;
+	height: 30em;
+}
+
+.left-cont-text {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-cont-text>h1 {
+
+	font-family: 'Playfair Display', serif;
+	color: darkslategrey;
+	font-size: 2.5em;
+}
+
+.left-cont-text>p {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: black;
+	font-size: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.left-cont-text>ul {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: black;
+	font-size: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.left-cont-text>ul>li {
+	padding-bottom: 3%;
+}
+
+.price>p {
+
+	width: 320px;
+	padding: 10px;
+	border: 5px solid rgb(7, 7, 7);
+	border-style: inset;
+	margin: 0;
+	background-color: rgb(37, 35, 35);
+	text-align: center;
+	font-size: 2em;
+	color: goldenrod;
+	font-family: 'Times New Roman', Times, serif;
+	padding-bottom: 3%;
+
+}
+
+.right-cont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.right-cont>img {
+	padding: 1em;
+	width: 50vw;
+	height: 30em;
+}
+
+.right-cont-text {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-cont-text>h1 {
+
+	font-family: 'Playfair Display', serif;
+	color: darkslategrey;
+	font-size: 2.5em;
+}
+
+.right-cont-text>p {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: black;
+	font-size: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.right-cont-text>ul {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: black;
+	font-size: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.right-cont-text>ul>li {
+	padding-bottom: 3%;
+}
+
+.price>p {
+
+	width: 320px;
+	padding: 10px;
+	border: 5px solid rgb(7, 7, 7);
+	border-style: inset;
+	margin: 0;
+	background-color: rgb(37, 35, 35);
+	text-align: center;
+	font-size: 2em;
+	color: goldenrod;
+	font-family: 'Times New Roman', Times, serif;
+	padding-bottom: 3%;
+
+}
+
+#testimonial {
+	background-image: url("testimonial.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+/* .scroll {
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x proximity;
+}
+
+.scroll_con {
+	scroll-snap-align: start;
+} */
+
+.testimonial>h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	color: white;
+}
+
+.testimonial_msg {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: rgb(249, 244, 244);
+	font-size: 1em;
+	padding-left: 5em;
+	padding-right: 5em;
+	font-size: large;
+}
+
+.testimonial_name {
+	font-family: cursive;
+	font-style: italic;
+	color: rgb(11, 11, 11);
+	font-weight: bolder;
+	font-size: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-align: center;
+	font-size: x-large;
+}
+
+.details {
+	background-color: rgb(105, 98, 98);
+	color: aliceblue;
+	font-family:sans-serif ;
+	text-align: center;
+	display:flex;
+	justify-content: space-between;
+}
+.details>div{
+	padding:1em;
+
+}
+
+

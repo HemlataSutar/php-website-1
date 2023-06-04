@@ -1,0 +1,132 @@
+  *{
+    margin: 0
+  }
+  body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    font-family: Tahoma, sans-serif;
+    background-image: url(contactus.jpg); 
+}
+ */
+  .container h2{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff; }
+
+  .container h1 {
+    color: white;
+    font-family: serif;
+    margin: 20px;
+  }
+  
+  .contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: serif;
+    background-color: #010101;
+    opacity: 0.8;
+    padding: 20px;
+  }
+
+  .contactus input,
+  .contactus select,
+  .contactus textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: serif;
+  }
+  
+  .contactus input:focus,
+  .contactus textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .contatcus .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 26px;
+    color: rgb(10, 10, 10);
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #060606;
+    text-align: center;
+  }
+    
+  #check{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   color: #ffffff;}
+   .container p{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;   
+    font-weight: bold;
+    color: #ffffff;
+   }
+  .contactus .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+    
+  }
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }    
+  .text-center {
+    text-align: center;
+  }
+      
+  .col-25 {    
+    float: left;    
+    width: 25%;    
+    margin-top: 6px;    
+  }   
+  .row {
+    justify-content: center;
+  }
+   
+  input[type=text], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+  input[type=email], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+      
+  label {    
+    padding: 12px 12px 12px 0;    
+    display: inline-block;    
+  }    
+      
+  input[type=submit] {  
+    width: 100%;
+    text-align: center;  
+    background-color: rgb(255,127,80);    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: right;  
+  }  
